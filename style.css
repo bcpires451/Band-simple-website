@@ -1,0 +1,90 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #242c3c;
+}
+
+body > header {
+    background-color: #0d0d0d;
+    color: darkmagenta;
+    margin: 0;
+    font-size: 16px;
+}
+
+body > header > h3 > span {
+    color: brown;
+}
+
+.uno {
+    background-color: #151a28;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.uno__h1 {
+    font-family: 'Rubik Moonrocks', sans-serif;;
+    font-size: 44px;
+    text-align: center;
+
+}
+
+.uno__h2 {
+    text-align: center;
+    color: darkmagenta;
+    font-size: 24px;
+}
+
+.uno__img {
+    display: flex;
+    margin: auto;
+    max-width: 800px;
+    height: 600px;
+}
+
+.date {
+    font-size: 24px;
+    color: white;
+    
+}
+
+li {
+    color: darkmagenta;
+}
+
+li span {
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    text-align: left;
+    color: white;
+    font-size: 14px;
+    background-color:black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.folder {
+    display: flex;
+    margin-left: 40px;
+    text-align: center;
+    border: 20px darkorchid solid;
+    width: 400px;
+    height: 40px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 700;
+}
+
+footer {
+    background-color:rgb(30, 30, 34);
+    color: white;
+    text-align: right;
+    padding: 25px;
+}
